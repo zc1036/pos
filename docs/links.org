@@ -1,0 +1,17 @@
+
+raspi 3b+ hardware:
+https://www.raspberrypi.org/blog/raspberry-pi-3-model-bplus-sale-now-35/
+
+https://github.com/raspberrypi/documentation/blob/master/faqs/README.md#hardware
+
+mailboxes:
+https://github.com/raspberrypi/firmware/wiki/Mailboxes
+
+raspi hw docs:
+https://github.com/raspberrypi/documentation/tree/master/hardware/raspberrypi
+
+some low level programming page:
+http://www.pieter-jan.com/node/15
+
+armstub8.S which is copied to address 0 and run at startup
+https://github.com/raspberrypi/tools/blob/master/armstubs/armstub8.S

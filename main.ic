@@ -1,0 +1,9 @@
+
+(defun (extern |main|) void ()
+       (let ((hay (& int32) (cast (& int32) 4)))
+            (let ((fo (& int32) (cast (& int32) 9)))
+                 (let ((fee int32 20))
+                      ;;(= fee (cast int8 20))
+                      (= ($ fo) fee)
+                      (while 1
+                             (= ($ fo) fee))))))
