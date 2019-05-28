@@ -2,7 +2,6 @@
 .section ".text"
 
 .global _start
-.global main
 
 ### Main entry point
 
