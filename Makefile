@@ -5,7 +5,7 @@ OBJCOPY:=llvm-objcopy-7
 CFLAGS:=-Wall -O2 -ffreestanding -nostdinc -nostdlib
 CXXFLAGS:=$(CFLAGS)
 LD:=ld.lld-7
-IC:=/home/beck/code/ivy/src/test.sh
+IC:=/home/beck/code/icy/src/test.sh
 
 OBJS := start.o main.o stack.o
 

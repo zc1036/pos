@@ -1,9 +1,15 @@
 
-(defun (extern |main|) void ()
+(include "uart.ich")
+
+(defvar feh (array int32 foo))
+
+(defun |main| void ()
        (let ((hay (& int32) (cast (& int32) 4)))
             (let ((fo (& int32) (cast (& int32) 9)))
                  (let ((fee int32 20))
                       ;;(= fee (cast int8 20))
-                      (= ($ fo) fee)
+                      (= [ fo ] foo)
                       (while 1
                              (= ($ fo) fee))))))
+
+(export |main|)
