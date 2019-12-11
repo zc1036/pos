@@ -1,0 +1,8 @@
+
+raspi 3b+ hardware:
+https://www.raspberrypi.org/blog/raspberry-pi-3-model-bplus-sale-now-35/
+
+https://github.com/raspberrypi/documentation/blob/master/faqs/README.md#hardware
+
+mailboxes:
+https://github.com/raspberrypi/firmware/wiki/Mailboxes
